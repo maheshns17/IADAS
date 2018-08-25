@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#616161"
+    tools:context="com.pmaptechnotech.iadas.adminside.EmergencyServicesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Emergency Services Part"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:textStyle="bold|normal" />
+
+        <EditText
+            android:id="@+id/edt_hospital_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/border"
+            android:hint="Hospital Name"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#BDBDBD" />
+
+        <EditText
+            android:id="@+id/edt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:digits="0123456789+"
+            android:hint="Phone no"
+            android:inputType="number"
+            android:maxLength="12"
+
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#BDBDBD" />
+
+        <EditText
+            android:id="@+id/edt_latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:hint="Latitude "
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#BDBDBD" />
+
+        <EditText
+            android:id="@+id/edt_longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:hint="Longitude"
+            android:inputType="numberDecimal"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#BDBDBD" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="#424242"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold|normal" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

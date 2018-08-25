@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">IAD&amp;AS</string>
+    <string name="title_activity_user_details">IAD&amp;AS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="Edit_Profile">Edit Profile</string>
+
+    <string name="forgot_password">
+        <a href="https://www.google.com/">Forgot Password?</a></string>
+
+    <string name="ON">On</string>
+    <string name="OFF">Off</string>
+    <string name="title_activity_police_station_maps">Map</string>
+    <string name="title_activity_fire_station_maps">Map</string>
+    <string name="error">Error</string>
+    <string name="server_error">Server Error</string>
+    <string name="check_internet_connection">Check Internet Connection</string>
+    <string name="Success">Success</string>
+    <string name="verifying">Verifying</string>
+
+    <color name="button_pressed">#FFDCCCCC</color>
+    <color name="button_focused">#121111</color>
+    <color name="button_default">#424242</color>
+</resources>

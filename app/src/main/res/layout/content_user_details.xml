@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#616161"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pmaptechnotech.iadas.activities.UserDetailsActivity"
+    tools:showIn="@layout/app_bar_user_details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbtn_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:buttonTint="#D50000"
+                    android:checked="true"
+                    android:gravity="left"
+                    android:text="@string/ON"
+                    android:textColor="#EF9A9A"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/rbtn_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:buttonTint="#D50000"
+                    android:checked="false"
+                    android:text="@string/OFF"
+                    android:textColor="#EF9A9A"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_contact_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="#424242"
+                android:padding="6dp"
+                android:text="Contact List"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold|normal" />
+
+            <Button
+                android:id="@+id/btn_police_station"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#424242"
+                android:padding="6dp"
+                android:text="Police Station"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold|normal" />
+
+            <Button
+                android:id="@+id/btn_fire_station"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#424242"
+                android:padding="6dp"
+                android:text="Fire Station"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold|normal" />
+
+            <Button
+                android:id="@+id/btn_ambulance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#424242"
+                android:padding="6dp"
+                android:text="Ambulance"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold|normal" />
+
+            <Button
+                android:id="@+id/btn_pharmacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#424242"
+                android:padding="6dp"
+                android:text="Pharmacy"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold|normal" />
+
+            <Button
+                android:id="@+id/btn_hospitals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#424242"
+                android:padding="6dp"
+                android:text="Near by Hospitals"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold|normal" />
+
+            <Button
+                android:id="@+id/btn_mobile_falls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#424242"
+                android:padding="6dp"
+                android:text="Mobile Falls"
+                android:visibility="gone"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold|normal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

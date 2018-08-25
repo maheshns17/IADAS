@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#616161"
+    tools:context="com.pmaptechnotech.iadas.activities.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="User Profile"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:textStyle="bold|normal" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:src="@drawable/camera"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <Button
+            android:id="@+id/btn_select_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#424242"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Select Image " />
+
+        <EditText
+            android:id="@+id/edt_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border"
+            android:hint="Name"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#BDBDBD" />
+        <EditText
+            android:id="@+id/edt_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:hint="Address"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#BDBDBD" />
+
+        <EditText
+            android:id="@+id/edt_blood_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"
+            android:hint="Blood Type"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#BDBDBD"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="#424242"
+            android:text="Submit"
+            android:padding="6dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold|normal"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
